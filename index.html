@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohamed Rafoud</title>
+  <meta name="description" content="Observational urban photography — Mohamed Rafoud" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header" role="banner">
+    <h1 class="title">Mohamed Rafoud</h1>
+    <div class="subtitle">Photography</div>
+  </header>
+
+  <section class="about" aria-label="About">
+    <p>
+      I am Mohamed Rafoud, born in Offenbach, Germany.<br><br>
+      I photograph urban spaces, transitions, and situations without events.
+      My work focuses on states rather than moments—quiet places where people become part of the structure and the city recedes.
+    </p>
+  </section>
+
+  <main class="gallery" aria-label="Series">
+    <figure><img loading="lazy" src="images/01.jpg" alt="" /></figure>
+    <figure><img loading="lazy" src="images/02.jpg" alt="" /></figure>
+    <figure><img loading="lazy" src="images/03.jpg" alt="" /></figure>
+    <figure><img loading="lazy" src="images/04.jpg" alt="" /></figure>
+    <figure><img loading="lazy" src="images/05.jpg" alt="" /></figure>
+    <figure><img loading="lazy" src="images/06.jpg" alt="" /></figure>
+    <figure><img loading="lazy" src="images/07.jpg" alt="" /></figure>
+    <figure><img loading="lazy" src="images/08.jpg" alt="" /></figure>
+    <figure><img loading="lazy" src="images/09.jpg" alt="" /></figure>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div>Contact: <a href="mailto:mrafoud@gmail.com">mrafoud@gmail.com</a></div>
+      <div class="small">© <span id="y"></span> Mohamed Rafoud</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
